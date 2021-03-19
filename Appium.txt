@@ -1,0 +1,41 @@
+1. node --version
+2. npm --version
+3. npm install -g appium
+4. where appium
+4. appium --version
+5. To start appium >appium
+    Note: It will start appium uing port 4723
+6. CTRL+C to stop the appium
+7. Install appium descktop to start and stop the server
+8. Install appium doctor>npm install appium-doctor -g
+9. npm uninstall -g appium/npm install -g appium
+10 Download Android Studio and Install SDK Tools
+12. Set environment variable
+    ANDROID_HOME=C:\Users\lkart\Desktop\AndroidSDK
+	Path: C:\Users\lkart\Desktop\AndroidSDK\tools
+	      C:\Users\lkart\Desktop\AndroidSDK\platform-tools
+		  C:\Users\lkart\Desktop\AndroidSDK\tools\bin
+
+	Open Emulator using CMD
+	>C:\Users\lkart\Desktop\AndroidSDK\emulator>emulator -avd ICON2
+	
+	
+	
+13. Connect you android device with the PC and open new command windows
+    >adb devices
+	you shound see "List of devices attached"
+	
+14. Dnable eeveloper mode
+
+15. Go to developer option >enable USB debugging
+16. adb start-server
+17. adb kill-server
+18. adb devices
+
+{
+    "platformName": "android",
+    "platformVersion": "10",
+    "deviceName": "RF8N93CHA8X",
+    "automationName": "XCUITest",
+    "app": "C:\Karthik\05-Appium\ICON2.ISMS-Mobile.R01.000.004.P1.apk"
+}
